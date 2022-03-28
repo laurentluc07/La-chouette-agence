@@ -74,7 +74,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label for="name">
 							Nom
@@ -114,7 +114,7 @@
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
-<a href="#" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a href="#" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" aria-label="scrollToTop"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
@@ -129,22 +129,22 @@
 				<div class="row row-no-gutters social" style="margin: auto!important;">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://twitter.com/" aria-label="Lien vers Twitter"></a><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://twitter.com/" aria-label="Lien vers Twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://facebook.com/" aria-label="Lien vers Facebook"></a><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://facebook.com/" aria-label="Lien vers Facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://dribbble.com/" aria-label="Lien vers Dribble"></a><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://dribbble.com/" aria-label="Lien vers Dribble"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://instagram.com/" aria-label="Lien vers Instagram"></a><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://instagram.com/" aria-label="Lien vers Instagram"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
@@ -157,10 +157,11 @@
 </div>
 <!-- Principal conteneur END -->
 
-
-</body>
+<!-- Script -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.js" integrity="sha512-YNHJw8+E76qTXNGndHzXfoprxSmMIErFZuaKzN+ehG9gJ162SKLG0JGdBBh0WVsh3Zdb/OH5fLXWP7R/1H5vSA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="./js/formHandler.js"></script>
+<!-- Script -->
+</body>
 </html>
